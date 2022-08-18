@@ -1,0 +1,21 @@
+{
+  "name": "infotecs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anchell812/infotecs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anchell812/infotecs/issues"
+  },
+  "homepage": "https://github.com/anchell812/infotecs#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.25.0"
+  }
+}
