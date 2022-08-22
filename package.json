@@ -16,6 +16,10 @@
   },
   "homepage": "https://github.com/anchell812/infotecs#readme",
   "devDependencies": {
-    "@playwright/test": "^1.25.0"
+    "@playwright/test": "^1.25.0",
+    "allure-playwright": "^2.0.0-beta.19"
+  },
+  "dependencies": {
+    "chai": "^4.3.6"
   }
 }

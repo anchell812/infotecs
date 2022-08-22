@@ -1,4 +1,3 @@
-const {  username, password } = require('../testData/testData.json');
 
 exports.LoginPage = class LoginPage {
 
@@ -12,11 +11,11 @@ exports.LoginPage = class LoginPage {
     this.confirmLoginButton = page.locator('//button[@id="login"]');
   }
 
-  async goto() {
-    await this.page.goto('https://demoqa.com/login/');
+  async goto(url) {
+    await this.page.goto(url);
   }
 
-  async login() {
+  async login(username, password) {
     await this.inputUsername.fill(username);
     await this.inputPassword.fill(password);
     await this.confirmLoginButton.click();

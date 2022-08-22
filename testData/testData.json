@@ -1,7 +1,11 @@
 {
-    
+  "url":"https://demoqa.com/login/",
   "username": "AnnaKabanova",
-  "password": "Password01_@"
+  "password": "Password01_@",
+  "bookStorePageName": "Book Store",
+  "bookName":"Git Pocket Guide",
+  "nextButton":"//button[contains(text(), 'Next')]",
+  "previousButton":"//button[contains(text(), 'Previous')]"
 }
 
  
